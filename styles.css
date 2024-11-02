@@ -1,0 +1,51 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.container{
+    height: 100vh;
+    /* background-color: antiquewhite; */
+
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    justify-content: center;
+    align-items: center;
+}
+
+#kp{
+    width: 400px;
+    height: 75px;
+     padding-top: 15px ;
+    text-align: center;
+    
+    box-shadow: 1px 1px 2px 1px rgb(212, 211, 211);
+
+    
+}
+
+#key{
+    font-size: 36px;
+    color: darkgreen;
+    text-shadow: 1px 0  3px darkgreen;
+}
+
+#kc{
+    padding: 20px;
+    height: 120px;
+    width: 100px;
+    box-shadow: 1px 1px 2px 1px rgb(212, 211, 211);
+    color: darkgreen;
+    font-size: 50px;
+    text-shadow: 1px 0  2px rgb(18, 19, 18);
+}
+
+#text{
+    color: rgb(70, 67, 67);
+    font-size: 34px;
+    font-weight: bold;
+    text-shadow: 1px 0  2px rgb(18, 19, 18);
+    letter-spacing: 1px;
+}
